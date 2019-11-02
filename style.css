@@ -1,0 +1,86 @@
+html, body {
+    background-color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem !important;
+}
+
+.nav-item {
+    font-size: 1.3rem !important;
+}
+
+.nav-item a:hover {
+    color: #fd79a8 !important;
+}
+
+.btn-info {
+    border-radius: 10px !important;
+}
+
+#about {
+    height: 100vh;
+    background-image: url("image/book.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#review img {
+    width: auto;
+    height: 370px;
+}
+
+.card {
+    margin: 50px 30px;
+    box-shadow: 0 4px 6px 0 gray;
+    border: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    word-wrap: break-word !important;
+}
+
+.card-body {
+    width: 340px;
+    height: auto;
+    padding: 15px 20px;
+}
+
+.btn {
+    border: 0px;
+    border-radius: 0px;
+    padding-top: 13px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.btn-outline-info {
+    color: #fff;
+    border-color: #17a2b8;
+    background-color: #17a2b8;
+}
+
+.btn-outline-info:hover {
+    color: #17a2b8;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+#footer {
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 400px) {
+    #review img {
+        height: 350px;
+    }
+
+    .card-body {
+        width: auto;
+    }
+}
