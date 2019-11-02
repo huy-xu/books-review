@@ -27,9 +27,9 @@ html, body {
     background-size: cover;
 }
 
-#review img {
-    width: auto;
-    height: 370px;
+.card-img-top {
+    width: 320px;
+    height: 350px;
 }
 
 .card {
@@ -38,11 +38,15 @@ html, body {
     border: 0px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    word-wrap: break-word !important;
+    transition: all 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card-body {
-    width: 340px;
+    width: 320px;
     height: auto;
     padding: 15px 20px;
 }
@@ -52,7 +56,6 @@ html, body {
     border-radius: 0px;
     padding-top: 13px;
     height: 50px;
-    text-transform: uppercase;
 }
 
 .btn-outline-info {
@@ -76,7 +79,8 @@ html, body {
 }
 
 @media only screen and (max-width: 400px) {
-    #review img {
+    .card-img-top {
+        width: 100%;
         height: 350px;
     }
 
